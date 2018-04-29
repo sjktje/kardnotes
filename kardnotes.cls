@@ -17,6 +17,16 @@
 \RequirePackage{pdfpages}
 \RequirePackage[headheight=80pt, headsep=1cm, top=4cm]{geometry}
 \RequirePackage{lastpage}
+\RequirePackage{parskip}            % Don't indent paragraphs.
+
+\RequirePackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue
+}
+
+\RequirePackage{booktabs}
 
 \RequirePackage[framemethod=TikZ]{mdframed}
 
