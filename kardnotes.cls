@@ -1,7 +1,7 @@
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
 \ProvidesClass{kardnotes}[2018/04/27 Kardiologiska kliniken notes]
 
-\LoadClass[a4paper, 12pt, twoside]{article}
+\LoadClass[a4paper, 10pt]{article}
 
 \RequirePackage{comment}
 \RequirePackage{fullpage}
@@ -19,7 +19,6 @@
 \RequirePackage{lastpage}
 
 \RequirePackage[framemethod=TikZ]{mdframed}
-
 
 \RequirePackage[yyyymmdd]{datetime}
 \renewcommand{\dateseparator}{-}
