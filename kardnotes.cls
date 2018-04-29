@@ -9,6 +9,7 @@
 \RequirePackage[utf8]{inputenc} 
 \RequirePackage[T1]{fontenc}        % Attempt to make pdf copy pastable
 \RequirePackage{graphicx} 
+\graphicspath{{./img/}}
 \RequirePackage{multicol} 
 \RequirePackage{float} 
 \RequirePackage{fancyhdr}
